@@ -1,0 +1,21 @@
+{
+  "name": "hardstop",
+  "description": "Stylus plugin to error on files larger than base64 file size limit",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Amicus/hardstop.git"
+  },
+  "dependencies": {
+    "stylus": "0.13.x"
+  },
+  "author": "Brian Glusman <brian@amicushq.com>",
+  "main": "lib/hardstop.js",
+  "engines": {
+    "node": "*"
+  },
+  "homepage": "https:///github.com/Amicus/hardstop",
+  "scripts": {
+    "test": "rake"
+  }
+}
